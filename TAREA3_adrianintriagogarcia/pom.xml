@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.prueba.tarea3</groupId>
+  <artifactId>TAREA3_adrian</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  		<maven.compiler.source>11</maven.compiler.source>
+  		<maven.compiler.target>11</maven.compiler.target>
+  </properties>
+  
+ 
+ <!-- DB4O -->
+<dependency>
+    <groupId>com.db4o</groupId>
+    <artifactId>db4o-core-java5</artifactId>
+    <version>8.1</version>
+</dependency>
+
+<!-- ObjectDB -->
+<dependency>
+    <groupId>com.objectdb</groupId>
+    <artifactId>objectdb</artifactId>
+    <version>2.8.7</version>
+</dependency>
+
+<!-- JPA (EclipseLink) -->
+<dependency>
+    <groupId>org.eclipse.persistence</groupId>
+    <artifactId>eclipselink</artifactId>
+    <version>4.0.2</version>
+</dependency>
+
+<!-- Spring Data JPA (si ya lo tienes, no lo repitas) -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+    <version>3.1.5</version> <!-- Usa la versión que ya tengas en tu proyecto -->
+</dependency>
+  
+  
+</project>
